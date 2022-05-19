@@ -1,0 +1,106 @@
+body {
+    padding-top: 90px;
+    font-family: "aktiv-grotesk",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: #008080;
+}
+
+#loader.loaded {
+    display: none !important;
+}
+
+#loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: #fff;
+    z-index: 100021;
+}
+
+.navigation .breadcrumb {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0 0 0 0;
+    padding-bottom: 0;
+    display: block;
+}
+
+@media screen and (min-width: 280px) and (max-width: 900px)
+.row-background.the-list .row .item:first-of-type {
+    max-width: 100%;
+    width: 100%;
+}
+
+.row-background.the-list .row .item {
+    background: #fff;
+    color: #000;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 20px 0 rgb(0 0 0 / 5%);
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: 0 1% 30px 1%;
+    max-width: 23%;
+    width: 100%;
+    padding: 0 0 20px 0;
+    text-decoration: none;
+    text-align: center;
+    transition: box-shadow .3s ease-out,transform .3s ease-out,opacity .2s ease-out;
+    transition-delay: .1s;
+    transform: translateZ(0);
+}
+
+.row-background.the-list .row .item img {
+    border-radius: 6px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: none;
+    float: left;
+    margin: 0 0 0 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+.row-profile .item img{
+    border-radius: 6px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: none;
+    float: right;
+    margin: 0 0 0 0;
+    max-width: 333.5px;
+    width: 333.5px;
+    
+}
+
+.content-profile{
+    padding-top: 10%;
+    color: white;
+}
+
+.breadcrumb {
+    color: white;
+    background-color: #008080;
+}
+
+.wp-content h2{
+    border: #008080;
+}
+#getLatest navi {
+    color: #008080;
+}
+
+.follow-us .socials img {
+    float: left;
+    margin: 0 0 0 15px;
+    width: 26px;
+    height: 26px;
+}
