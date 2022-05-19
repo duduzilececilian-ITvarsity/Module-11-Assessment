@@ -1,0 +1,153 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>FoodieFanatix</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <link href="fontawesome/css/all.css" rel="stylesheet">
+    </head>
+    <body onload="init()">
+        <div class="d-flex flex-column align-items-center p-3 bg-white border-bottom box-shadow fixed-top">
+            <img src="img/logo.jpg" height="40px"/>
+            <nav>
+                <a id="getLatest" class="navi" href="#">Restaurants</a>
+                <a id="getLatest" class="navi" href="newsletters.html">Newsletters</a>
+            </nav>
+        </div>
+        <div id="loader" class="loaded"><div class="spinner"></div></div><!-- Google Tag Manager (noscript) -->
+        <div id="navigation" class="navigation fixed-header">
+            <p class="breadcrumb">FoodieFanatix.</p><br/>
+            <p class="breadcrumb">Best restaurants and food outlets in all the major cities.</p><br/>
+        </div>
+        <div class="wp-content">
+            <div class="row-background the-list">
+                <div data-list="1-24" class="row list visible-list">
+                    <a id="contentLink" href="Noma.html" class="item ">
+                        <img src="img/Noma-2.jpg" class=" ls-is-cached lazyloaded" alt="Geranium-Dish-1" title="Geranium-Dish-1"><p class="position ">1</p>
+                        <h2>Noma</h2><p>Copenhagen, Denmark</p>
+                    </a>
+                    <a id="contentLink" href="Geranium.html" class="item ">
+                        <img src="img/Geranium-1.jpg" class=" ls-is-cached lazyloaded" alt="Geranium-Dish-1" title="Geranium-Dish-1"><p class="position ">2</p>
+                        <h2>Geranium</h2><p>Copenhagen, Denmark</p>
+                    </a>
+                    <a id="contentLink" href="Asador-Etxebarri.html" class="item ">
+                        <img src="img/Asador_Extebarri-1.jpg" class=" ls-is-cached lazyloaded" alt="Asasdor-Etxebarri-Dish-1" title="Asasdor-Etxebarri-Dish-1"><p class="position ">3</p>
+                        <h2>Asador Etxebarri</h2><p>Atxondo, Spain</p>
+                    </a>
+                    <a id="contentLink" href="Central.html" class="item ">
+                        <img src="img/Central-3.jpg" class=" ls-is-cached lazyloaded" alt="Central-Interior-1" title="Central-Interior-1"><p class="position ">4</p>
+                        <h2>Central</h2><p>Lima, Peru</p>
+                    </a>
+                    <a id="contentLink" href="Disfrutar.html" class="item ">
+                        <img src="img/Disfrutar-1.jpg" class=" ls-is-cached lazyloaded" alt="Disfrutar-Dish-1" title="Disfrutar-Dish-1"><p class="position ">5</p>
+                        <h2>Disfrutar</h2><p>Barcelona, Spain</p>
+                    </a>
+                    <a id="contentLink" href="Frantzen.html" class="item ">
+                        <img src="img/Frantzen-1.jpg" class=" ls-is-cached lazyloaded" alt="Frantzen-Dish-1" title="Frantzen-Dish-1"><p class="position ">6</p>
+                        <h2>Frantzén</h2><p>Stockholm, Sweden</p>
+                    </a>
+                    <a id="contentLink" href="Maido.html" class="item ">
+                        <img src="img/Maido-Lima-Peru-1.1.png" class=" ls-is-cached lazyloaded" alt="Maido-Dish-1" title="Maido-Dish-1"><p class="position ">7</p>
+                        <h2>Maido</h2><p>Lima, Peru</p>
+                    </a>
+                    <a id="contentLink" href="Odette.html" class="item ">
+                        <img src="img/Odette-1.jpg" class=" ls-is-cached lazyloaded" alt="Odette-Dish-1" title="Odette-Dish-1"><p class="position ">8</p>
+                        <h2>Odette</h2><p>Singapore</p>
+                    </a>
+                    <a id="contentLink" href="Pujol.html" class="item ">
+                        <img src="img/Pujol-1.jpg" class=" ls-is-cached lazyloaded" alt="Pujol-Dish-1" title="Pujol-Dish-1"><p class="position ">9</p>
+                        <h2>Pujol</h2><p>Mexico City, Mexico</p>
+                    </a>
+                    <a id="contentLink" href="The-Chairman.html" class="item ">
+                        <img src="img/The_Chairman-1.jpg" class=" ls-is-cached lazyloaded" alt="The-Chairman-Dish-1" title="The-Chairman-Dish-1"><p class="position ">10</p>
+                        <h2>The Chairman</h2><p>Hong Kong, China</p>
+                    </a>
+                    <a id="contentLink" href="Den.html" class="item ">
+                        <img src="img/Den-3.jpg" class=" ls-is-cached lazyloaded" alt="Den-Interior-1" title="Den-Interior-1"><p class="position ">11</p>
+                        <h2>Den</h2><p>Tokyo, Japan</p>
+                    </a>
+                    <a id="contentLink" href="Steirereck.html" class="item ">
+                        <img src="img/Steirereck-2.jpg" class=" ls-is-cached lazyloaded" alt="Steirereck-Dish-1" title="Steirereck-Dish-1"><p class="position ">12</p>
+                        <h2>Steirereck</h2><p>Vienna, Austria</p>
+                    </a>
+                    <a id="contentLink" href="Don-Julio.html" class="item ">
+                        <img src="img/Don_Julio-3.jpg" class=" ls-is-cached lazyloaded" alt="Don-Julio-Dish-1" title="Don-Julio-Dish-1"><p class="position ">13</p>
+                        <h2>Don Julio</h2><p>Buenos Aires, Argentina</p>
+                    </a>
+                    <a id="contentLink" href="Mugaritz.html" class="item ">
+                        <img src="img/Mugaritz-2.jpg" class=" ls-is-cached lazyloaded" alt="Mugaritz-Dish-1" title="Mugaritz-Dish-1"><p class="position ">14</p>
+                        <h2>Mugaritz</h2><p>San Sebastian, Spain</p>
+                    </a>
+                    <a id="contentLink" href="Lido-84.html" class="item ">
+                        <img src="img/Lido_84-1.jpg" class=" ls-is-cached lazyloaded" alt="Lido-84-Interior" title="Lido-84-Interior"><p class="position ">15</p>
+                        <h2>Lido 84</h2><p>Gardone Riviera, Italy</p>
+                    </a>
+                    <a id="contentLink" href="Elkano.html" class="item ">
+                        <img src="img/Elkano-2.jpg" class=" ls-is-cached lazyloaded" alt="Elkano-Dish-1" title="Elkano-Dish-1"><p class="position ">16</p>
+                        <h2>Elkano</h2><p>Getaria, Spain</p>
+                    </a>
+                    <a id="contentLink" href="A-Casa-Do-Porco.html" class="item ">
+                        <img src="img/A_Casa_do_Porco-1.jpg" class=" ls-is-cached lazyloaded" alt="A_Casa_do_Porco-Dish-1" title="A_Casa_do_Porco-Dish-1"><p class="position ">17</p>
+                        <h2>A Casa do Porco</h2><p>São Paulo, Brazil</p>
+                    </a>
+                    <a id="contentLink" href="Piazza-Duomo.html" class="item ">
+                        <img src="img/Piazza_Duomo-1.jpg" class=" ls-is-cached lazyloaded" alt="Piazza-Duomo-Interior" title="Piazza-Duomo-Interior"><p class="position ">18</p>
+                        <h2>Piazza Duomo</h2><p>Alba, Italy</p>
+                    </a>
+                    <a id="contentLink" href="Narisawa.html" class="item ">
+                        <img src="img/Narisawa-1.jpg" class=" ls-is-cached lazyloaded" alt="Narisawa-Dish-1" title="Narisawa-Dish-1"><p class="position ">19</p>
+                        <h2>Narisawa</h2><p>Tokyo, Japan</p>
+                    </a>
+                    <a id="contentLink" href="Diverxo.html" class="item ">
+                        <img src="img/Diverxo-1.jpg" class=" ls-is-cached lazyloaded" alt="DiverXO-Dish-1" title="DiverXO-Dish-1"><p class="position ">20</p>
+                        <h2>DiverXO</h2><p>Madrid, Spain</p>
+                    </a>
+                    <a id="contentLink" href="Maaemo.html" class="item ">
+                        <img src="img/Maaemo-2.jpg" class=" ls-is-cached lazyloaded" alt="Maaemo-Dish-1" title="Maaemo-Dish-1"><p class="position ">21</p>
+                        <h2>Maaemo</h2><p>Oslo, Norway</p>
+                    </a>
+                    <a id="contentLink" href="Atelier-Crenn.html" class="item ">
+                        <img src="img/Atelier_Crenn-1.jpg" class=" ls-is-cached lazyloaded" alt="Atelier-Crenn-Dish-1" title="Atelier-Crenn-Dish-1"><p class="position ">22</p>
+                        <h2>Atelier Crenn</h2><p>San Francisco, USA</p>
+                    </a>
+                    <a id="contentLink" href="Azurmendi.html" class="item ">
+                        <img src="img/Azurmendi-1.jpg" class=" ls-is-cached lazyloaded" alt="Azurmendi-Dish-1" title="Azurmendi-Dish-1"><p class="position ">23</p>
+                        <h2>Azurmendi</h2><p>Larrabetzu, Spain</p>
+                    </a>
+                    <a id="contentLink" href="Wolfgat.html" class="item ">
+                        <img src="img/Wolfgat-1.jpg" class=" ls-is-cached lazyloaded" alt="Wolfat-Interior" title="Wolfat-Interior"><p class="position ">24</p>
+                        <h2>Wolfgat</h2><p>Paternoster, South Africa</p>
+                    </a>
+                </div>
+            
+           
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+
+        </script>
+
+        <div class="follow-us">
+            <ul class="socials">
+                <li><a id="contentLink" href="https://www.facebook.com/50BestRestaurants/">
+                    <img src="img/facebook.png" class=" ls-is-cached lazyloaded" alt="Facebook" title="Facebook"></a>
+                </li>
+                <li><a id="contentLink" href="https://instagram.com/theworlds50best">
+                    <img src="img/instagram.png" class=" ls-is-cached lazyloaded" alt="Instagram" title="Instagram"></a>
+                </li>
+                <li><a id="contentLink" href="https://twitter.com/theworlds50best">
+                    <img src="img/twitter-3-logo.svg" class=" ls-is-cached lazyloaded" alt="Twitter" title="Twitter"></a>
+                </li>
+                <li><a id="contentLink" href="https://www.youtube.com/user/worlds50best">
+                    <img src="img/youtube.png" class=" ls-is-cached lazyloaded" alt="YouTube" title="YouTube"></a>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>    

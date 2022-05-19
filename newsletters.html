@@ -1,0 +1,99 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>FoodieFanatix</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <link href="fontawesome/css/all.css" rel="stylesheet">
+    </head>
+    <body onload="init()">
+        <div class="d-flex flex-column align-items-center p-3 bg-white border-bottom box-shadow fixed-top">
+            <img src="img/logo.jpg" height="40px"/>
+            <nav>
+                <a id="getLatest" class="p-2 text-dark" href="index.html">Restaurants</a>
+                <a id="getLatest" class="p-2 text-dark" href="#">Newsletters</a>
+            </nav>
+        </div>
+        <div id="loader" class="loaded"><div class="spinner"></div></div><!-- Google Tag Manager (noscript) -->
+        <div id="navigation" class="navigation fixed-header">
+            <p class="breadcrumb">FoodieFanatix.</p><br/>
+            <p class="breadcrumb">Best restaurants and food outlets in all the major cities.</p><br/>
+        </div>
+
+        <div class="el-content-wrapper" id="el-content-wrapper">
+            <div class="copy">
+                <h2>Newsletters</h2>
+                <p><b>Subscribe to FoodieFanatix</b></p>
+            </div>
+
+            <div class="content" id="content">
+                <form id="item-form" action="" method="post" name="item-form"><input id="op" type="hidden" name="op" value="subscribe">
+                    <fieldset class="contact_name">
+                        <label for="contact_name">First name</label>
+                        <input id="contact_name" type="text" name="contact_name" placeholder="Type your first name" required="required" size="40" value="">
+                    </fieldset>
+                    <fieldset class="contact_lastname">
+                        <label for="contact_lastname">Last name</label>
+                        <input id="contact_lastname" type="text" name="contact_lastname" placeholder="Type your last name" required="required" size="40" value="">
+                    </fieldset>
+                    <fieldset class="contact_email">
+                        <label for="contact_email">Email</label>
+                        <input id="contact_email" type="text" name="contact_email" placeholder="example@domain.com" required="required" size="40" value="">
+                    </fieldset>
+                    <fieldset class="contact_mobile">
+                        <label for="contact_mobile">Cell number</label>
+                        <input id="contact_mobile" type="text" name="contact_mobile" placeholder="Cell number" size="40" value="">
+                    </fieldset>
+                    <fieldset class="contact_state">
+                        <label for="contact_state">Countries</label>
+                        <select id="contact_state" name="contact_state" style="width: 272px;">
+                            <option value="China">China</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Brazil">Brazil</option>
+                            <option value="Italy">Italy</option>
+                            <option value="Japan">Japan</option>
+                            <option value="Norway">Norway</option>
+                            <option value="USA">USA</option>
+                            <option value="Spain">Spain</option>
+                            <option value="South Africa">South Africa</option>
+                            <option value="Austria">Austria</option>
+                            <option value="Mexico">Mexico</option>
+                            <option value="Singapore">Singapore</option>
+                            <option value="Peru">Peru</option>
+                            <option value="Sweden">Sweden</option>
+                            <option value="Denmark">Denmark</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset class="subscribe">
+                        <input type="checkbox" class="promo-radio" name="newsletter" value="yes, i'd like to receive newsletters" id="newsletter-everlytic">
+                        <label for="subscribe"><h3>Weekly newsletter</h3>Our Weekly newsletter serves up the latest restaurant news, including new openings, interviews and videos you won't want to miss.</label>
+                    </fieldset>
+                    <fieldset class="promotional">
+                        <input id="promo-everlytic" class="promo-radio" type="checkbox" name="promo" value="">
+                        <label for="promotional"><h3>Promotional newsletter</h3>Be first to receive information about competitions and special offers from Eat Out and its partners.</label>
+                    </fieldset>
+                    <fieldset class="industry">
+                        <input id="industry-everlytic" class="promo-radio" type="checkbox" name="industry" value="">
+                        <label for="industry"><h3>Industry newsletter</h3>Sign up to our Restaurant industry insider newsletter, with tips, hints and industry news.</label>
+                    </fieldset>
+                    <fieldset class="company_name">
+                        <label for="company_name">Restaurant or Company name</label>
+                        <input id="company_name" type="text" name="company_name" placeholder="Restaurant or Company name" required="required" size="40" value="">
+                    </fieldset>
+                    <input type="hidden" name="list_id[]" value="13254" id="list_id[]">
+                    <input type="hidden" name="op" value="subscribe" id="op">
+                    <input type="hidden" name="form_hash" value="1qiX7gxNPNJGWNkG" id="form_hash">
+                    <div id="newsletter-alert-fail" class="newsletter-alert" style="display: none !important;">Please ensure you have completed all fields and selected at least one newsletter.</div>
+                    <input class="public_button" type="submit" value="Submit" id="subscribe_btn">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>        
